@@ -89,6 +89,7 @@ print(maxStepInterval)
 <br/>
 
 #### **Imputing missing values**
+Each missing value is filled with the mean steps for the corresponding interval index which is returned by the function ```getMeanStepsPerInterval```. We create a new dataset ```completeActivityData``` which has the missing data of the original dataset filled in.
 
 ###### **Calculate and report the total number of missing values in the dataset (i.e. the total number of rows with NAs).**
 

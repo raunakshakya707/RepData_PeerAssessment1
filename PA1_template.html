@@ -178,6 +178,7 @@ print(maxStepInterval)</code></pre>
 </div>
 <div id="imputing-missing-values" class="section level4">
 <h4><strong>Imputing missing values</strong></h4>
+<p>Each missing value is filled with the mean steps for the corresponding interval index which is returned by the function <code>getMeanStepsPerInterval</code>. We create a new dataset <code>completeActivityData</code> which has the missing data of the original dataset filled in.</p>
 <div id="calculate-and-report-the-total-number-of-missing-values-in-the-dataset-i.e.the-total-number-of-rows-with-nas." class="section level6">
 <h6><strong>Calculate and report the total number of missing values in the dataset (i.e. the total number of rows with NAs).</strong></h6>
 <pre class="r"><code>missingRows &lt;- sum(is.na(activityData))
